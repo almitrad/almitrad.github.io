@@ -1,0 +1,232 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  z-index: -1;
+}
+
+/* sidebar */
+.sidebar-wrapper {
+	position: fixed;
+	width: 25%;
+	height: 100%;
+	background-color: white;
+}
+
+.sidebar-item {
+	font-weight: 600;
+	font-size: 16px;
+	color: black;
+  font-family: 'Josefin Sans', sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+  text-decoration: none;
+}
+
+.sidebar-wrapper ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+#about-nav {
+  position: relative;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+#almitra-headshot {
+  position: absolute;
+  width: 230px;
+  left: 18%;
+  top: 6%;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+	color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#name {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 26px;
+}
+
+#activities-nav {
+  position: absolute;
+  top: 70%;
+  text-align: center;
+  width: 100%;
+}
+
+#description-nav {
+  position: absolute;
+  top: 45%;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  width: 80%;
+  left: 10%;
+  text-align: center;
+}
+
+/* grid */
+#page-wrapper {
+  width: 75%;
+  height: 100%;
+  position: absolute;
+  left: 25%;
+}
+
+.card {
+  position: absolute;
+  width: 33.33%;
+  height: 33.33%;
+}
+
+.grid-item-description {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  top: 45%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  color: black;
+  z-index: 2;
+}
+
+.grid-item-description:hover{
+	color: #4c4ca6;
+  	cursor: pointer;
+}
+
+.grid-icon {
+  object-fit: cover;
+  width: 40%;
+  position: absolute;
+  z-index: 5;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.mandala-col-one{
+  object-fit: cover;
+  width: 78%;
+  height: 98%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 22%;
+  right: 0;
+  bottom: 0;
+}
+
+.mandala-col-two{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 11%;
+
+}
+
+.mandala-col-three{
+  object-fit: cover;
+  width: 78%;
+  height: 98%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 22%;
+  bottom: 0;
+}
+
+.lighten {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.75;
+  display: none;
+}
+
+#one-one {
+  background-color: #b3e7e2;
+}
+
+#one-two {
+  left: 33.33%;
+  background-color: #9cc9c5;
+}
+
+#one-three {
+  left: 66.67%;
+  background-color: #8bb4b0;
+}
+
+#two-one {
+  top: 33.33%;
+  background-color: #9b9d98;
+}
+
+#two-two {
+  top: 33.33%;
+  left: 33.33%;
+  background-color: #b4b7b0;
+}
+
+#two-three {
+  top: 33.33%;
+  left: 66.67%;
+  background-color: #d8dcd4;
+}
+
+#three-one {
+  top: 66.67%;
+  background-color: #ffe7df;
+}
+
+#three-two {
+  top: 66.67%;
+  left: 33.33%;
+  background-color: #eed8d0;
+}
+
+#three-three {
+  top: 66.67%;
+  left: 66.67%;
+  background-color: #d5c1ba;
+}
+
+
